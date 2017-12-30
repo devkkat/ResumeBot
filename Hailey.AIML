@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Hailey-Bot-->
+<aiml>
+
+<!--Greetings-->
+  <category>
+    <pattern>Hello *</pattern>
+    <template>Hey! <sr/></template>
+  </category>
+  <category>
+    <pattern>Hello</pattern>
+    <template>Hey!</template>
+  </category>
+  <category>
+    <pattern>hi</pattern>
+    <template>Hey!</template>
+  </category>
+  <category>
+    <pattern>hi *</pattern>
+    <template>Hey! <sr/></template>
+  </category>
+  <category>
+    <pattern>yo</pattern>
+    <template>Hey!</template>
+  </category>
+  <category>
+    <pattern>yo *</pattern>
+    <template>Hey! <sr/></template>
+  </category>
+  <category>
+    <pattern>hey</pattern>
+    <template>Hey!</template>
+  </category>
+  <category>
+    <pattern>hey *</pattern>
+    <template>Hey! <sr/></template>
+  </category>
+  <category>
+    <pattern>how are you</pattern>
+    <template>I'm doing good.  Do you have any questions about my resume?</template>
+  </category>
+  <category>
+    <pattern>how are you *</pattern>
+    <template><srai>how are you?</srai></template>
+  </category>
+  <category>
+    <pattern>Hailey</pattern>
+    <template>That's me!</template>
+  </category>
+
+  <!--school-->
+  <category>
+    <pattern>where did you go to school</pattern>
+    <template>I took some college classes while I was still in high school!  When I graduated, I went on to study Engineering at Purdue University! Now, I'm transferring my credits to WGU to finish my B.S. in Software Development.</template>
+  </category>
+  <category>
+    <pattern>* where did you go to school</pattern>
+    <template>I took some college classes while I was still in high school!  When I graduated, I went on to study Engineering at Purdue University! Now, I'm transferring my credits to WGU to finish my B.S. in Software Development.</template>
+  </category>
+  <category>
+    <pattern>* school</pattern>
+    <template>I took some college classes while I was still in high school!  When I graduated, I went on to study Engineering at Purdue University! Now, I'm transferring my credits to WGU to finish my B.S. in Software Development.</template>
+  </category>
+  <category>
+    <pattern>* purdue *</pattern>
+    <template>I studied Engineering at Purdue University, but, even though I liked the school, I left without taking a degree. Now, I'm transferring my credits to WGU to finish my B.S. in Software Development.</template>
+  </category>
+  <category>
+    <pattern>* purdue</pattern>
+    <template>I studied Engineering at Purdue University, but, even though I liked the school, I left without taking a degree. Now, I'm transferring my credits to WGU to finish my B.S. in Software Development.</template>
+  </category>
+  <category>
+    <pattern>what did you study</pattern>
+    <template>I studied Engineering at Purdue University, but, even though I liked the school, I left without taking a degree. Now, I'm transferring my credits to WGU to finish my B.S. in Software Development.</template>
+  </category>
+  <category>
+    <pattern>what did you study *</pattern>
+    <template>I studied Engineering at Purdue University, but, even though I liked the school, I left without taking a degree. Now, I'm transferring my credits to WGU to finish my B.S. in Software Development.</template>
+  </category>
+
+  <!--work-->
+  <category>
+    <pattern>* do you work *</pattern>
+    <template>Right now, I get income from odd jobs and YouTube ad revenue.  I'm really focussing on my studies while I stay home with my new baby girl.</template>
+  </category>
+  <category>
+    <pattern>* do you work</pattern>
+    <template>Right now, I get income from odd jobs and YouTube ad revenue.  I'm really focussing on my studies while I stay home with my new baby girl.</template>
+  </category>
+  <category>
+    <pattern>do you work *</pattern>
+    <template>Right now, I get income from odd jobs and YouTube ad revenue.  I'm really focussing on my studies while I stay home with my new baby girl.</template>
+  </category>
+  <category>
+    <pattern>* is your job *</pattern>
+    <template>Right now, I get income from odd jobs and YouTube ad revenue.  I'm really focussing on my studies while I stay home with my new baby girl.</template>
+  </category>
+  <category>
+    <pattern>* is your job</pattern>
+    <template>Right now, I get income from odd jobs and YouTube ad revenue.  I'm really focussing on my studies while I stay home with my new baby girl.</template>
+  </category>
+  <category>
+    <pattern>* for work *</pattern>
+    <template>Right now, I get income from odd jobs and YouTube ad revenue.  I'm really focussing on my studies while I stay home with my new baby girl.</template>
+  </category>
+  <category>
+    <pattern>* for work</pattern>
+    <template>Right now, I get income from odd jobs and YouTube ad revenue.  I'm really focussing on my studies while I stay home with my new baby girl.</template>
+  </category>
+  <category>
+    <pattern>* working</pattern>
+    <template><srai>* do you work</srai></template>
+  </category>
+  <category>
+    <pattern>* working *</pattern>
+    <template><srai>* do you work</srai></template>
+  </category>
+
+  <!--hobbies-->
+  <category>
+    <pattern>* for fun</pattern>
+    <template>Lately, I've been super busy taking care of a 4 month old and 2 dogs, and studying.  But I still find time to play video games, binge Hulu, and relax.</template>
+  </category>
+  <category>
+    <pattern>* spare time</pattern>
+    <template><srai>* for fun</srai></template>
+  </category>
+
+  <!--personal-->
+  <category>
+    <pattern>How old are you</pattern>
+    <template>21</template>
+  </category>
+  <category>
+    <pattern>* birthday</pattern>
+    <template>My birthday is 11/25/1996</template>
+  </category>
+  <category>
+    <pattern>* born</pattern>
+    <template>My birthday is 11/25/1996</template>
+  </category>
+  <category>
+    <pattern>* favorite color</pattern>
+    <template>PURPLE!</template>
+  </category>
+  <category>
+    <pattern>favorite color</pattern>
+    <template>PURPLE!</template>
+  </category>
+  <category>
+    <pattern>* about yourself</pattern>
+    <template>My name is Hailey.  I'm an avid self-studier, decaf-connoisseur, gamer, and stay-at-home mommy.  My childhood dream was to create video games or other software, so I'm learning to do just that. 2000's RnB is my digs.</template>
+  </category>
+  <category>
+    <pattern>* about you</pattern>
+    <template><srai>* about yourself</srai></template>
+  </category>
+  <category>
+    <pattern>* your name</pattern>
+    <template><srai>* about yourself</srai></template>
+  </category>
+
+   <!--experience-->
+   <category>
+     <pattern>experience * aiml</pattern>
+     <template>I'm a beginner with AIML, but It's a lot like HTML!  I'm catching on quick.</template>
+   </category>
+   <category>
+     <pattern>* experience * aiml</pattern>
+     <template>I'm a beginner with AIML, but It's a lot like HTML!  I'm catching on quick.</template>
+   </category>
+   <category>
+     <pattern>* experience * aiml *</pattern>
+     <template>I'm a beginner with AIML, but It's a lot like HTML!  I'm catching on quick.</template>
+   </category>
+   <category>
+      <pattern>* aiml</pattern>
+      <template>I'm a beginner with AIML, but It's a lot like HTML!  I'm catching on quick.</template>
+   </category>
+   <category>
+     <pattern>* aiml *</pattern>
+     <template>I'm a beginner with AIML, but It's a lot like HTML!  I'm catching on quick.</template>
+   </category>
+   <category>
+     <pattern>* coding experience</pattern>
+     <template>I'm currently learning all that I can when it comes to programming.  I'm proficient with HTML and CSS.</template>
+   </category>
+   <category>
+     <pattern>* coding experience *</pattern>
+     <template>I'm currently learning all that I can when it comes to programming.  I'm proficient with HTML and CSS.</template>
+   </category>
+   <category>
+     <pattern>* experience coding</pattern>
+     <template>I'm currently learning all that I can when it comes to programming.  I'm proficient with HTML and CSS.</template>
+   </category>
+   <category>
+     <pattern>* experience coding *</pattern>
+     <template>I'm currently learning all that I can when it comes to programming.  I'm proficient with HTML and CSS.</template>
+   </category>
+   <category>
+     <pattern>* programming languages</pattern>
+     <template>I'm currently learning all that I can when it comes to programming.  I'm proficient with HTML and CSS.</template>
+   </category>
+   <category>
+     <pattern>* coding</pattern>
+     <template>I'm currently learning all that I can when it comes to programming.  I'm proficient with HTML and CSS.</template>
+   </category>
+   <category>
+     <pattern>* writing skills</pattern>
+     <template>I've always been a good writer.  I took college level English in high school, and studied Communication at Purdue.  plus, I'm good at creating entertaining content because I write my own scripts for my YouTube channel.</template>
+   </category>
+   <category>
+     <pattern>* writing skills *</pattern>
+     <template><srai>* writing skills</srai></template>
+   </category>
+   <category>
+     <pattern>* content creation *</pattern>
+     <template><srai>* writing skills</srai></template>
+   </category>
+   <category>
+     <pattern>* content creation</pattern>
+     <template><srai>* writing skills</srai></template>
+   </category>
+   <category>
+     <pattern>* content creator</pattern>
+     <template><srai>* writing skills</srai></template>
+   </category>
+   <category>
+     <pattern>* good writer</pattern>
+     <template><srai>* writing skills</srai></template>
+   </category>
+
+  <!-- catch all -->
+  <category>
+    <pattern>*</pattern>
+    <template>Hmm.. I'm not really sure how to answer.  Can you say that in a different way?</template>
+  </category>
+
+
+</aiml>
